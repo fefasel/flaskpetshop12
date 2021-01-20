@@ -1,0 +1,97 @@
+#logo {
+	height: 40px;
+	width: 50px;
+	margin-left: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 20px;
+	float: left;
+}
+
+#title {
+	background-color: #4d9a3f;
+	display: inline-block;
+	width: 100%;
+}
+
+#searchBox {
+	height: 20px;
+	width: 800px;
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	float: left;
+	font-size: 1.5em;
+}
+
+#searchButton {
+	height: 25px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	float: left;
+}
+
+.dropbtn {
+	background-color: #4fd8b3;
+	color: #cc7b7b;
+	padding: 16px;
+	font-size: 15px;
+	border: none;
+	cursor: pointer;
+}
+
+.dropdown {
+	position: relative;
+	float: left;
+}
+
+.dropdown-content  {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgb(64 79 181 / 20%);
+}
+
+.dropdown-content a {
+	font-size: 14px;
+	color: #8a3636;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown:hover .dropbtn {
+	background-color: #4a9e6c;
+}
+
+#signInButton {
+	color: yellow;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	float: left;
+}
+#cart {
+	color: #a94bd4;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	float: left;
+}
+
+#cartIcon {
+	height: 30px;
+	width: 30px;
+}
+

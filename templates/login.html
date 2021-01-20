@@ -1,0 +1,24 @@
+<html>
+<head>
+<title>	Flask app </title>
+</head>
+<body>
+<p> {{error}} </p>
+<form action="/login" method="POST">
+	<p>Email: <input type="text" name="email"></p>
+	<p>Password: <input type="password" name="password"></p>
+
+	<p>Please select user type:</p>
+    <input type="radio" id="customer" name="userType" value="customer">
+    <label for="customer">Customer</label><br>
+    <input type="radio" id="supplier" name="userType" value="supplier">
+    <label for="supplier">Supplier</label><br>
+
+	<p><input type="submit"></p>
+
+	
+	<a href="/registerationForm">Register here</a>
+</form>
+
+</body>
+</html>
